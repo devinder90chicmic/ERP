@@ -4,32 +4,32 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="1.119">
+           time="1.124">
     <properties></properties>
 
             <testcase
                 name="login"
-                time="1.119"
+                time="1.124"
                 classname="erp_login.Case1_ErpLoginTest">
 
             <failure type="org.openqa.selenium.NoSuchWindowException" message="no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
+  (Session info: chrome=115.0.5790.102)
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a292d7838f6aec875089fe262c7f34bc, findElement {using=css selector, value=input[formcontrolname=&apos;email&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52184/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a292d7838f6aec875089fe262c7f34bc">
+Command: [f0930e86b479bd7c55e6e7a936dda4da, findElement {using=css selector, value=input[formcontrolname=&apos;email&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59717/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0930e86b479bd7c55e6e7a936dda4da">
                 <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
+  (Session info: chrome=115.0.5790.102)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a292d7838f6aec875089fe262c7f34bc, findElement {using=css selector, value=input[formcontrolname='email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52184/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a292d7838f6aec875089fe262c7f34bc
+Command: [f0930e86b479bd7c55e6e7a936dda4da, findElement {using=css selector, value=input[formcontrolname='email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59717/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0930e86b479bd7c55e6e7a936dda4da
                 java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)erp_login.Case1_ErpLoginTest.login(Case1_ErpLoginTest.java:40)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:794)org.testng.TestRunner.run(TestRunner.java:596)org.testng.SuiteRunner.runTest(SuiteRunner.java:377)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)org.testng.SuiteRunner.run(SuiteRunner.java:276)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)org.testng.TestNG.runSuitesLocally(TestNG.java:1134)org.testng.TestNG.runSuites(TestNG.java:1063)org.testng.TestNG.run(TestNG.java:1031)org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </failure>
